@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: aliceblue;
+}
+
+.brandLogo{
+    display: flex;
+    align-items: center;
+}
+
+.brandLogo img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.carritoIcono {
+    display: flex;
+    align-items: center;
+}
+.carritoIcono img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.itemList{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+.itemList li h3{
+    margin: 10px;
+}
+
+
