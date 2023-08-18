@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './NavBar.module.css'
-import logo from '../../../../public/vite.svg'
-import carrito from '../../../../public/carrito.svg'
+import logo from '/public/vite.svg'
+import carrito from '/public/carrito.svg'
 
 const NavBar = () => {
   return (
@@ -31,7 +31,7 @@ const NavBar = () => {
 
         <div className={styles.carritoIcono}>
         <img src={carrito} alt="#" />
-        <h2>Carrito</h2>
+        <h2>0</h2>
         </div>
 
         </div>

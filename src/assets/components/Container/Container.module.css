@@ -1,5 +1,24 @@
 .container{
+    display: flex;
+    flex-direction: row;
     width: auto;
+    background-color:black;
+    margin-top: 5px;
+}
+.descripcion {
+    text-align: center;
+    color: aliceblue;
+    width: -webkit-fill-available;
     height: 500px;
-    background-color: black;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    width: 500px;
+    height: 500px;
 }
