@@ -6,7 +6,7 @@ const Container = () => {
   return (
     <div className={styles.container}>
 
-      <video controls loop className={styles.video}>
+      <video controls autoPlay muted className={styles.video}>
         <source src={video}  type="video/mp4"/>
         Tu navegador no soporta el video.
       </video>
