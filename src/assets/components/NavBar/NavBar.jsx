@@ -31,7 +31,6 @@ const NavBar = () => {
 
         <div className={styles.carritoIcono}>
         <img src={carrito} alt="#" />
-        <h2>0</h2>
         </div>
 
         </div>
