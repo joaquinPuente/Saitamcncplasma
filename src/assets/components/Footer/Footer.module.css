@@ -1,15 +1,37 @@
 .footer {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    margin-top: 5px;
+    background-color: whitesmoke;
 }
 
 .col1 {
     display: flex;
     flex-direction: column;
-    
+    width: 350px;
+
+}
+.col2 {
+    width: 300px;
+}
+
+.col3 {
+    width: 300px;
+}
+
+.col4 {
+    width: 300px;
 }
 
 .ic1 {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.textF {
+    font-size: x-large;
+    text-align: center;
 }
