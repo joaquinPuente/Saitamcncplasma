@@ -2,8 +2,23 @@
     display: flex;
     flex-direction: row;
     width: auto;
-    background-color:black;
+    background-color: black;
     margin-top: 5px;
+}
+
+.tittle{
+    background-image: url("/public/plasma.jpg") ;
+    background-size: 100vw auto; 
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: antiquewhite;
+    font-size: xx-large;
 }
 .descripcion {
     text-align: center;
