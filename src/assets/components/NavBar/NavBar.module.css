@@ -40,4 +40,12 @@
     margin: 10px;
 }
 
+a:Link {
+    text-decoration: none;
+}
+
+.linkTo, .linkTo:hover{
+    color: black;
+}
+
 

@@ -5,12 +5,14 @@ import video from '/public/video.mp4'
 const Container = () => {
   return (
     <div>
+
       <div className={styles.tittle}>
         <h1>Bienvenido a SaitamCnPlasma</h1>
         <p>Empresa donde el metal cobra vida y se transforma en
         creaciones que perduran en el tiempo. Tu visión es nuestro desafío, y estamos aquí para
         convertirla en realidad con habilidad y maestría metalúrgica.</p>
       </div>
+      
     <div className={styles.container}>
       
       <video controls autoPlay muted className={styles.video}>
