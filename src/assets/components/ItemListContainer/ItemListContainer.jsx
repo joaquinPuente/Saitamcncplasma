@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from '../Products/Products.module.css'
+import styles from './ItemListContainer.module.css'
 import plasma from '/public/plasma.jpg'
 
-const Products = () => {
+const ItemListContainer = () => {
   return (
     <div className={styles.container}>
       <div class="tarjeta">
@@ -19,4 +19,4 @@ const Products = () => {
   )
 }
 
-export default Products
+export default ItemListContainer

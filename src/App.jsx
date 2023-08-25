@@ -5,7 +5,7 @@ import NavBar from './assets/components/NavBar/NavBar'
 import Container from './assets/components/Container/Container'
 import Footer from './assets/components/Footer/Footer'
 import Contact from './assets/components/Contact/Contact';
-import Products from './assets/components/Products/Products.jsx';
+import ItemListContainer from './assets/components/ItemListContainer/ItemListContainer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Container/>}/>
         <Route path='/contacto' element={<Contact/>}/>
-        <Route path='/productos' element={<Products/>}/>
+        <Route path='/productos' element={<ItemListContainer/>}/>
       </Routes>
 
       <Footer/>
